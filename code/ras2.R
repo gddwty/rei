@@ -1,7 +1,7 @@
 
 # setting working directory
 getwd()
-setwd("C:\\Users\\Thinkpad\\Desktop\\ras2")
+setwd()
 
 # loading libraries
 library(tidyverse)
