@@ -1,0 +1,169 @@
+COUNTRY,REI,v2x_polyarchy,v2x_libdem,regime
+Sweden,2,0.923,0.893,Democracy
+Denmark,5,0.915,0.89,Democracy
+Costa Rica,1,0.912,0.861,Democracy
+Uruguay,0,0.907,0.831,Democracy
+USA,1,0.906,0.853,Democracy
+Switzerland,4,0.904,0.859,Democracy
+Belgium,0,0.896,0.836,Democracy
+Chile,3,0.894,0.853,Democracy
+France,0,0.894,0.824,Democracy
+New Zealand,2,0.892,0.842,Democracy
+Norway,3,0.892,0.859,Democracy
+Germany,3,0.888,0.849,Democracy
+Finland,4,0.887,0.852,Democracy
+Ireland,5,0.887,0.816,Democracy
+Portugal,1,0.887,0.834,Democracy
+Greece,3,0.885,0.8,Democracy
+Estonia,0,0.881,0.829,Democracy
+Luxembourg,0,0.881,0.787,Democracy
+Poland,5,0.88,0.813,Democracy
+Brazil,2,0.878,0.794,Democracy
+Netherlands,1,0.878,0.832,Democracy
+Austria,1,0.876,0.802,Democracy
+Australia,1,0.873,0.834,Democracy
+Slovenia,1,0.87,0.805,Democracy
+Spain,2,0.87,0.782,Democracy
+Italy,3,0.867,0.794,Democracy
+UK,3,0.867,0.798,Democracy
+Iceland,6,0.862,0.78,Democracy
+Czech Republic,0,0.857,0.776,Democracy
+Latvia,1,0.835,0.754,Democracy
+Lithuania,0,0.835,0.779,Democracy
+Slovak Republic,1,0.835,0.729,Democracy
+Croatia,0,0.826,0.709,Democracy
+Japan,1,0.825,0.738,Democracy
+Jamaica,2,0.812,0.694,Democracy
+Canada,0,0.808,0.737,Democracy
+Peru,3,0.805,0.675,Democracy
+Argentina,1,0.798,0.619,Democracy
+Taiwan,0,0.797,0.67,Democracy
+Cape Verde,0,0.791,0.706,Democracy
+Malta,3,0.78,0.591,Democracy
+Barbados,2,0.778,0.669,Democracy
+Suriname,2,0.767,0.644,Democracy
+Mauritius,2,0.761,0.642,Democracy
+Panama,1,0.753,0.554,Democracy
+Trinidad & Tobago,1,0.753,0.641,Democracy
+Tunisia,8,0.752,0.642,Democracy
+South Africa,0,0.75,0.627,Democracy
+Ghana,4,0.743,0.625,Democracy
+Israel,7,0.736,0.651,Democracy
+Senegal,1,0.718,0.579,Democracy
+Botswana,2,0.712,0.611,Democracy
+South Korea,1,0.712,0.608,Democracy
+Vanuatu,1,0.707,0.601,Democracy
+Mongolia,0,0.687,0.55,Democracy
+Georgia,0,0.684,0.521,Democracy
+Romania,5,0.682,0.57,Democracy
+El Salvador,1,0.68,0.48,Democracy
+Colombia,1,0.679,0.545,Democracy
+Bulgaria,0,0.674,0.569,Democracy
+Indonesia,22,0.67,0.515,Democracy
+Hungary,1,0.668,0.526,Democracy
+India,13,0.667,0.541,Democracy
+Namibia,2,0.667,0.55,Democracy
+Bolivia,1,0.661,0.406,Democracy
+Moldova,1,0.658,0.553,Democracy
+Niger,1,0.638,0.503,Democracy
+Timor,1,0.632,0.474,Democracy
+Benin,1,0.623,0.508,Democracy
+Mexico,2,0.623,0.42,Democracy
+Lesotho,2,0.619,0.48,Democracy
+Nepal,2,0.618,0.493,Democracy
+Guyana,3,0.614,0.394,Democracy
+Liberia,3,0.601,0.455,Democracy
+Paraguay,2,0.601,0.421,Democracy
+Dominican Rep.,1,0.582,0.306,Democracy
+Bosnia,2,0.579,0.409,Democracy
+Guatemala,1,0.579,0.429,Democracy
+Burkina Faso,1,0.571,0.443,Democracy
+Bhutan,8,0.565,0.474,Democracy
+Solomon Islands,2,0.562,0.432,Democracy
+Ecuador,1,0.56,0.272,Democracy
+Philippines,1,0.552,0.429,Democracy
+Malawi,2,0.546,0.445,Democracy
+Kosovo,2,0.534,0.364,Democracy
+Nigeria,12,0.532,0.402,Democracy
+Mali,3,0.527,0.354,Democracy
+Lebanon,12,0.516,0.319,Democracy
+Kenya,3,0.512,0.401,Democracy
+Albania,0,0.51,0.431,Democracy
+Sierra Leone,3,0.509,0.315,Democracy
+Comoros,7,0.499,0.306,Autocracy
+Togo,2,0.495,0.263,Autocracy
+Zambia,4,0.494,0.391,Autocracy
+Tanzania,5,0.479,0.389,Autocracy
+Ivory Coast,2,0.469,0.337,Autocracy
+Madagascar,1,0.458,0.223,Autocracy
+Montenegro,2,0.458,0.364,Autocracy
+Sri Lanka,5,0.457,0.274,Autocracy
+Pakistan,20,0.455,0.269,Autocracy
+Guinea Bissau,1,0.454,0.292,Autocracy
+Honduras,1,0.449,0.277,Autocracy
+Serbia,0,0.446,0.364,Autocracy
+Kyrgyzstan,1,0.438,0.314,Autocracy
+Mozambique,2,0.438,0.318,Autocracy
+Turkey,4,0.437,0.263,Autocracy
+Haiti,1,0.43,0.257,Autocracy
+Mauritania,9,0.425,0.162,Autocracy
+Papua New Guinea,2,0.412,0.33,Autocracy
+Maldives,17,0.41,0.217,Autocracy
+Ukraine,1,0.409,0.211,Autocracy
+Iraq,14,0.402,0.245,Autocracy
+Singapore,2,0.402,0.318,Autocracy
+Guinea,2,0.38,0.171,Autocracy
+Afghanistan,21,0.379,0.231,Autocracy
+Gabon,1,0.378,0.231,Autocracy
+Myanmar,9,0.359,0.173,Autocracy
+Armenia,1,0.352,0.212,Autocracy
+Cameroon,2,0.347,0.161,Autocracy
+Nicaragua,3,0.339,0.142,Autocracy
+Yemen,16,0.336,0.134,Autocracy
+Zanzibar,3,0.332,0.248,Autocracy
+Algeria,12,0.328,0.172,Autocracy
+Uganda,3,0.325,0.258,Autocracy
+Malaysia,23,0.318,0.203,Autocracy
+Kuwait,16,0.312,0.283,Autocracy
+Venezuala,1,0.312,0.101,Autocracy
+Angola,2,0.306,0.148,Autocracy
+Zimbabwe,4,0.299,0.211,Autocracy
+Cambodia,3,0.294,0.115,Autocracy
+Bangladesh,6,0.292,0.122,Autocracy
+Libya,15,0.28,0.176,Autocracy
+Central African Republic,2,0.276,0.171,Autocracy
+Chad,2,0.275,0.096,Autocracy
+Russia,3,0.273,0.116,Autocracy
+Burundi,2,0.272,0.101,Autocracy
+Morocco,10,0.272,0.235,Autocracy
+Jordan,17,0.265,0.223,Autocracy
+Palestine West Bank,12,0.265,0.176,Autocracy
+Belarus,0,0.247,0.103,Autocracy
+Djibouti,4,0.245,0.116,Autocracy
+Rwanda,1,0.236,0.146,Autocracy
+Kazakhstan,0,0.234,0.117,Autocracy
+Sudan,20,0.231,0.074,Autocracy
+Ethiopia,4,0.226,0.106,Autocracy
+Fiji,3,0.221,0.152,Autocracy
+Vietnam,4,0.213,0.142,Autocracy
+Iran,21,0.207,0.152,Autocracy
+Tajikistan,0,0.201,0.054,Autocracy
+Azerbaijan,0,0.194,0.064,Autocracy
+Equatorial Guinea,1,0.184,0.057,Autocracy
+South Sudan,2,0.18,0.069,Autocracy
+Cuba,0,0.174,0.079,Autocracy
+Oman,16,0.174,0.143,Autocracy
+Somalia,13,0.172,0.127,Autocracy
+Uzbekistan,3,0.167,0.037,Autocracy
+Bahrain,9,0.162,0.047,Autocracy
+Thailand,5,0.159,0.11,Autocracy
+Egypt,14,0.147,0.09,Autocracy
+Turkmenistan,2,0.144,0.029,Autocracy
+Syria,10,0.139,0.028,Autocracy
+Laos,6,0.091,0.078,Autocracy
+UAE,18,0.087,0.086,Autocracy
+North Korea,3,0.086,0.014,Autocracy
+China,0,0.085,0.051,Autocracy
+Qatar,17,0.084,0.1,Autocracy
+Eritrea,4,0.069,0.007,Autocracy
+Saudi Arabia,27,0.018,0.049,Autocracy
