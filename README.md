@@ -1,2 +1,2 @@
 # rei
-Data and code for the paper religion enforcement and the quality of democracy in Indonesia
+Data and code for the paper "How Illiberal is Indonesia's Democracy?", Muslim Politics Review & COMPOSE Working Paper Series
