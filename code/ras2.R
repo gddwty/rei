@@ -32,7 +32,7 @@ as_tibble(df2)
 # export df2 to csv to recode the value of MX variables to 0/1
 write.csv(df2, "C:\\Users\\Thinkpad\\Desktop\\ras2\\rei2014.csv")
 
-
+# manually recode MX variables in Excel from previously valued 0-3 to 0/1
 
 #importing back the csv with MX variables has been recoded to 0/1
 read.csv("rei2014.csv", header = TRUE, strip.white = TRUE,
@@ -46,7 +46,7 @@ summary(df3$MX22X2014X)
 summary(df3$MX23X2014X)        
 summary(df3$MX29X2014X)        
         
-# sum of each rows
+# sum of each rows in the dataframe (to calculate each country's religious legislations/REI score)
 REI <- rowSums(df3[, 2:30], na.rm = TRUE)
 print(REI)
 
@@ -56,24 +56,24 @@ df3$REI <- REI
 # exporting df3 to csv
 write.csv(df3, "C:\\Users\\Thinkpad\\Desktop\\ras2\\rei2014X.csv")
 
-######## VDEM DATASET WORKS
+######## VDEM DATASET WORKS #####
 
 #importing VDem dataset
 
 df4 <- readRDS(file.choose())
 names(df4)
 
-#taking only variables of interest 
+# taking only variables of interest 
 
 df4 %>% select(country_name,year,v2x_polyarchy,v2x_libdem)-> df5
 
-#filter only year 2014
+# filter only year 2014
 df5 %>% filter(year==2014)->vdem2014
 
-#exporting dataframe into csv to be before merged
+# exporting dataframe into csv to be before merged
 write.csv(vdem2014, "C:\\Users\\Thinkpad\\Desktop\\ras2\\vdem2014.csv")
 
-##### Merging REI and VDem dataset manually by adding the value from VDem to REI 2014
+##### Merging REI and VDem dataset by COUNTRY manually in Excel (by adding the value from VDem to REI 2014)
 
 # importing new dataframe that has been cleaned and merged with variables from VDem
 read.csv("data2.csv", header = TRUE, strip.white = TRUE,
@@ -83,7 +83,7 @@ read.csv("data2.csv", header = TRUE, strip.white = TRUE,
 df6 %>%
   mutate(REIX = REI/29) -> df7
 
-# summarizing variable
+# summarizing variable to get descriptive statistics
 install.packages("vtable")
 library(vtable)
 st(df7)
@@ -93,18 +93,18 @@ summary(df7$regime)
 # filtering only democracy and create a df
 df7 %>% filter(regime=="Democracy") -> dem
 
-#filtering only autocracies and create a df
+# filtering only autocracies and create a df
 df7 %>% filter(regime=="Autocracy") -> auto 
 
-#summarizing democracy
+# summarizing democracy
 st(dem)
 summary(dem)
 
-#summarizing autocracy
+# summarizing autocracy
 st(auto)
 summary(auto)
 
-#boxplot
+# boxplot comparinng distribution of scores in democracies and autocracies
 boxplot(REIX ~ regime, data = df7, 
         xlab = "Regime",
         ylab = "Religion Enforcement")
@@ -114,7 +114,7 @@ boxplot(REI ~ regime, data = df7,
         ylab = "Religion Enforcement")
 
 
-# plot visualization 
+# scatterplot visualization of countries along two dimensions: polyarchy index and REI
 ggplot(data = df7,
        mapping = aes(x=REIX,
                      y=v2x_polyarchy,
@@ -142,10 +142,7 @@ ggplot(data = df7,
   ylab("Religion Enforcement Index")
 
 
-#filtering democracies outlier
-dem %>% filter(REI<15) -> demnormal
-st(demnormal)
-summary(demnormal)
+
 
 
 
